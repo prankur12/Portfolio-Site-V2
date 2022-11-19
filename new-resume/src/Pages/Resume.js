@@ -1,4 +1,5 @@
 import React from "react";
+import CV from "../Component/CV";
 import Footer from "../Component/Footer";
 import Header from "../Component/Header";
 function Resume() {
@@ -6,6 +7,7 @@ function Resume() {
     <div>
       {" "}
       <Header />
+      <CV />
       <Footer />
     </div>
   );
