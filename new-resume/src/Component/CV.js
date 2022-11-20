@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function CV() {
   return (
@@ -52,7 +53,7 @@ function CV() {
                 Satna, India
               </div>
               <a
-                href="https://www.linkedin.com/in/usman168"
+                href="https://www.linkedin.com/in/prankur34"
                 class="my-5 text-white text-lg  text-white  flex"
               >
                 <div class="mr-2">
@@ -70,7 +71,7 @@ function CV() {
             </div>
             <div class="mx-4 hidden md:block">
               <a
-                href="mailto:moh.usman168@gmail.com"
+                href="mailto:pprankur@gmail.com"
                 class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition duration-150 ease-in-out w-full py-2 text-white rounded text-base"
               >
                 Hire me
@@ -80,87 +81,69 @@ function CV() {
         </div>
         <div class="md:w-2/3 p-2 w-full">
           <div class="mx-4 mb-6">
-            <h1 class="mb-4 text-4xl text-gray-700 font-bold">Summary</h1>
-            <p class="text-lg">
-              Enthusiastically explore new technologies for efficiency, always
-              looking for ways to solve the problem as efficiently as possible,
-              giving priority simplicity of code.
+            <h1 class="mb-4 text-4xl text-gray-200  font-bold">Education</h1>
+            <p class="text-lg text-gray-800">
+              AKS UNIVERSITY - SATNA MP (2015-2019)
+            </p>{" "}
+            <p class="text-lg text-gray-800">
+              B.Tech Computer Science & Engineering
             </p>
           </div>
           <div class="mx-4">
-            <h1 class="mb-4 text-4xl text-gray-700 font-bold">Experience</h1>
+            <h1 class="mb-4 text-4xl text-gray-200  font-bold">Experience</h1>
             <ul>
               <li class="mb-4">
                 <h2 class="text-2xl font-medium text-gray-800">
-                  Golang Developer
+                  Open Source Contributor at Real Dev Squad
                 </h2>
                 <div class="mt-1">
                   <div>
                     <i class="bx bx-buildings"></i>
-                    <small class="text-base text-gray-800">
-                      PT. Sigma Cipta Caraka (Telkomsigma)
-                    </small>
+                    <ul>
+                      <li>
+                        {" "}
+                        <small class="text-base text-gray-800">
+                          - Translated the Figma designs and wire frames by
+                          converting them into high-quality code, using HTML,
+                          CSS, JavaScript, and ReactJS, Designed and Developed
+                          5+ personal projects.
+                        </small>
+                      </li>{" "}
+                      <li>
+                        {" "}
+                        <small class="text-base text-gray-800">
+                          - Integrated the RestAPI’s to make features
+                        </small>
+                      </li>{" "}
+                      <li>
+                        {" "}
+                        <small class="text-base text-gray-800">
+                          - Created 1600+ GitHub commits, Reviewed 145+ GitHub
+                          PRs and Raised 95+ PRs in all projects.
+                        </small>
+                      </li>
+                      <li>
+                        {" "}
+                        <small class="text-base text-gray-800">
+                          - Actively Contributing to the open-source products
+                          which are currently used by 200+ developers.
+                        </small>
+                      </li>
+                      <li>
+                        {" "}
+                        <small class="text-base text-gray-800">
+                          – Writing Technical Blogs on technology at
+                          <Link to="/blogs">
+                            <span>Prankur's Blog</span>
+                          </Link>
+                        </small>
+                      </li>
+                    </ul>
                   </div>
                   <div>
                     <i class="bx bx-calendar text-sm"></i>
-                    <small class="text-sm text-gray-600">
-                      Jan 2021 - Present{" "}
-                    </small>
-                  </div>
-                </div>
-              </li>
-              <li class="mb-4">
-                <h2 class="text-2xl font-medium text-gray-800">
-                  Data Engineer (ETL, Data Pipeline)
-                </h2>
-                <div class="mt-1">
-                  <div>
-                    <i class="bx bx-buildings"></i>
-                    <small class="text-base text-gray-800">
-                      PT. Sigma Cipta Caraka (Telkomsigma)
-                    </small>
-                  </div>
-                  <div>
-                    <i class="bx bx-calendar text-sm"></i>
-                    <small class="text-sm text-gray-600">
-                      Jan 2020 - Present
-                    </small>
-                  </div>
-                </div>
-              </li>
-              <li class="mb-4">
-                <h2 class="text-2xl font-medium text-gray-800">
-                  Full Stack Developer
-                </h2>
-                <div class="mt-1">
-                  <div>
-                    <i class="bx bx-buildings"></i>
-                    <small class="text-base text-gray-800">
-                      PT. Sigma Cipta Caraka (Telkomsigma)
-                    </small>
-                  </div>
-                  <div>
-                    <i class="bx bx-calendar text-sm"></i>
-                    <small class="text-sm text-gray-600">
-                      Jan 2020 - Mar 2020
-                    </small>
-                  </div>
-                </div>
-              </li>
-
-              <li class="mb-4">
-                <h2 class="text-2xl font-medium text-gray-800">
-                  Senior Frontend Developer
-                </h2>
-                <div class="mt-1">
-                  <div>
-                    <i class="bx bx-buildings"></i>
-                    <small class="text-base text-gray-800">Freelance</small>
-                  </div>
-                  <div>
-                    <i class="bx bx-calendar text-sm"></i>
-                    <small class="text-sm text-gray-600">
-                      Jan 2020 - Mar 2020
+                    <small class="text-sm text-gray-200">
+                      October 2021 - Present{" "}
                     </small>
                   </div>
                 </div>
@@ -168,58 +151,94 @@ function CV() {
 
               <li class="mb-4">
                 <h2 class="text-2xl font-medium text-gray-800">
-                  Backend Developer
+                  Jr Software Engineer - Taritas Software Solutions
                 </h2>
                 <div class="mt-1">
                   <div>
                     <i class="bx bx-buildings"></i>
-                    <small class="text-base text-gray-800">
-                      PT. Bonet Utama
-                    </small>
+                    <ul>
+                      <li>
+                        {" "}
+                        <small class="text-base text-gray-800">
+                          – Implemented an entire new QA Pipeline for an
+                          upcoming product.
+                        </small>
+                      </li>
+                      <li>
+                        {" "}
+                        <small class="text-base text-gray-800">
+                          - Designed ,Developed and Executed the test cases and
+                          identified the bugs in pre-existing products.
+                        </small>
+                      </li>
+                      <li>
+                        {" "}
+                        <small class="text-base text-gray-800">
+                          - Tested the application on functional and GUI point
+                          (iOS-Android) platforms.
+                        </small>
+                      </li>
+                    </ul>
                   </div>
                   <div>
                     <i class="bx bx-calendar text-sm"></i>
-                    <small class="text-sm text-gray-600">
-                      Dec 2018 - Dec 2019
+                    <small class="text-sm text-gray-200">
+                      Jan 2020 - July -2020{" "}
                     </small>
                   </div>
                 </div>
               </li>
               <li class="mb-4">
                 <h2 class="text-2xl font-medium text-gray-800">
-                  Data Center (Linux Sysadmin)
-                </h2>
-                <div class="mt-1">
-                  <div>
-                    <i class="bx bx-buildings text-sm"></i>
-                    <small class="text-base text-gray-800">
-                      PT. Bonet Utama
-                    </small>
-                  </div>
-                  <div>
-                    <i class="bx bx-calendar text-sm"></i>
-                    <small class="text-sm text-gray-600">
-                      Agu 2017 - Okt 2018
-                    </small>
-                  </div>
-                </div>
-              </li>
-              <li class="mb-4">
-                <h2 class="text-2xl font-medium text-gray-800">
-                  IT Support Internship
+                  Software Engineer (Intern) - Mplify Technologies
                 </h2>
                 <div class="mt-1">
                   <div>
                     <i class="bx bx-buildings"></i>
-                    <small class="text-base text-gray-800">
-                      PT. Nutrifood Indonesia
+                    <ul>
+                      <li>
+                        {" "}
+                        <small class="text-base text-gray-800">
+                          – Performed exploratory, functional, and GUI testing
+                          on the 3+ Applications on Web and Mobile (iOS-Android)
+                          platforms.
+                        </small>
+                      </li>{" "}
+                      <li>
+                        {" "}
+                        <small class="text-base text-gray-800">
+                          – Wrote and executed 150+ test cases for UI,
+                          Functional and Regression testing . wrote 50+
+                          automation testing scripts.
+                        </small>
+                      </li>{" "}
+                      <li>
+                        {" "}
+                        <small class="text-base text-gray-800">
+                          – Identified , logged and Re-tested the 40+ defects
+                          across the products while strictly following the STLC
+                          and SDLC cycle.
+                        </small>
+                      </li>{" "}
+                    </ul>
+                  </div>
+                  <div>
+                    <i class="bx bx-calendar text-sm"></i>
+                    <small class="text-sm text-gray-200">
+                      June 2019 -Dec 2019{" "}
                     </small>
                   </div>
-                  <div class="">
-                    <i class="bx bx-calendar"></i>
-                    <small class="text-sm text-gray-600">3 Month</small>
-                  </div>
                 </div>
+              </li>
+            </ul>
+          </div>
+          <div class="mx-4">
+            <h1 class="mb-4 text-4xl text-gray-200 font-bold">Projects</h1>
+            <ul>
+              <li class="mb-6 flex flex-wrap">
+                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium text-black bg-gray-200">
+                  <Link to="/projects">All the Projects are Listed Here</Link>
+                </span>
               </li>
             </ul>
           </div>
@@ -227,74 +246,32 @@ function CV() {
             <h1 class="mb-4 text-4xl text-gray-200 font-bold">Skill</h1>
             <ul>
               <li class="mb-6 flex flex-wrap">
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Flask
+                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium text-black bg-gray-200">
+                  HTML
                 </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Python Pandas
+                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium text-black bg-gray-200">
+                  CSS
                 </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  ETL Automation
+                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium text-black bg-gray-200">
+                  JavaScript
                 </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Laravel/Lumen
+                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium text-black bg-gray-200">
+                  React JS
                 </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Composer Dependency
+                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium text-black bg-gray-200">
+                  Tailwindcss/Bootstrap
                 </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Codeigniter
-                </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Slim
-                </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
+                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium text-black bg-gray-200">
+                  NodeJS
+                </span>{" "}
+                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium text-black bg-gray-200">
                   ExpressJS
                 </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Code Principles
-                </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Design Database
-                </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Design Pattern
-                </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  System Analysis
-                </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  VueJS
-                </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  ReactJS
-                </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Tailwind css/Bootstrap
-                </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
+                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium text-black bg-gray-200">
                   Sass/Scss
-                </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Web Server
-                </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Mail Server
-                </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  PostgreSQL
-                </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Mysql/MariaDB
-                </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  MonggoDB
-                </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Linux Sysadmin
-                </span>
-                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Networking
+                </span>{" "}
+                <span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium text-black bg-gray-200">
+                  Technical Writing
                 </span>
               </li>
             </ul>

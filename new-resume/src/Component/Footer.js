@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div>
       <footer class="text-gray-400 bg-gray-900 body-font">
-        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col mt-auto">
           <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
